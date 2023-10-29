@@ -1,19 +1,33 @@
 * {
     margin: 5px 20px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
+}
+
+p {
+    font-size: .89em;
+    color: rgb(78, 74, 74);
 }
 
 ul {
     list-style: none;
 }
 
+ul li {
+    margin-bottom: 15px;
+}
+
 video {
     margin: 20px 70px;
+    border-radius: 25px;
 }
 
 .container {
